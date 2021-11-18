@@ -30,7 +30,7 @@ def merge(l,r):
         else:
             new_list.append(r[j])
             j+=1
-    if i<len(l):
+    if i<=len(l):
         new_list.extend(l[i:])
     elif j<len(r):
         new_list.extend(r[j:])
